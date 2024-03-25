@@ -10,9 +10,9 @@ import {
     uuid,
   } from 'drizzle-orm/pg-core';
   
-  const userRole = pgEnum('user-role', ['REGULAR','ADMIN',]);
+  export const userRole = pgEnum('user-role', ['REGULAR','ADMIN',]);
 
-  const filesystemType = pgEnum('filesystem-type', ['FILE', 'FOLDER'])
+  export const filesystemType = pgEnum('filesystem-type', ['FILE', 'FOLDER'])
   
   export const user = pgTable(
     'user',

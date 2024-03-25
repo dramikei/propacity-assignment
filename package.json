@@ -14,9 +14,11 @@
   "license": "ISC",
   "dependencies": {
     "@hapi/boom": "^10.0.1",
+    "@sinclair/typebox": "^0.32.20",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "drizzle-orm": "^0.30.4",
+    "drizzle-typebox": "^0.1.1",
     "express": "^4.19.2",
     "express-async-errors": "^3.1.1",
     "pino": "^8.19.0",

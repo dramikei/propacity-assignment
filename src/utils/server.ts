@@ -16,7 +16,6 @@ export const ErrorHandler = (error: Boom | any, req: Request, res: Response, nex
     //         logger.error(`Error while unlinking file: ${err}`);
     //     });
     // }
-
     let code = error?.output?.statusCode ?? error?.status ?? 500;
     if (typeof code !== "number") code = 500;
 
